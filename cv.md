@@ -19,10 +19,10 @@ and to get new skillset.
 ```
 **Education**:  
 
-		*Sukhoi State Technical University of Gomel*  
+		Sukhoi State Technical University of Gomel  
 			2016-2018  
 			Qualification: software developer  
-		*Francisk Skorina Gomel State University*  
+		Francisk Skorina Gomel State University  
 			2005-2010  
 			Qualification: teacher of German and English  
 			
@@ -39,7 +39,7 @@ and to get new skillset.
 		git,Java, Servlet and JSP-Technologies  
 					  
 **Electronic certificates**:  
-* [The Complite JavaScript Cource](https://www.udemy.com/certificate/UC-QT0R53K2/) 
+* [The Complete JavaScript Course](https://www.udemy.com/certificate/UC-QT0R53K2/) 
 * [Web Design for Web-Developers](https://www.udemy.com/certificate/UC-5ZAJZ3ZG/)  
 		
 		
