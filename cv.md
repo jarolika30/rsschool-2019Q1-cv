@@ -5,16 +5,23 @@
 **Address**: Belarus, Gomel  
 	Yubileynaya 13/18, 246028  
 			 
-**My goal**: to obtain a Junior  Front-end Developer position.  
+**My goal**: to obtain a Front-end Developer position.  
 ```
-	I have recently finished my second education, now I am looking for a good start for my career in IT.  
-	My main interest is to develop my skills in Web-technologies. On my opinion this area plays leading 
-position in the modern development. It`s developing fast and opens good jobs perspective.  
-	My professional background was connected with teaching. I think, that my previous job helped me to get 
-such important skills as patience, responsibility and although  not to be afraid of any difficulties. 
-In addition I can teach others and learn by myself. Live and learn - it's about me. I like to face new challenges 
-and to get new skillset.
-	Now I am ready to work hard and to take much time for becoming a good specialist in web-development. 
+	I have recently finished my second education, now I am looking for a good start for 
+my career in IT.  
+	My main interest is to develop my skills in Web technologies. I like it, because
+Web technologies offer powerful possibilities to make websites, web applications, games
+and it is the best way to implement my ideas and dreams. Among a large numbers of programming  
+languages I prefer JavaScript. It allows not only to create beautiful and interactive projects, 
+but also can be used on the server side.
+	At the moment I am familiar with NodeJS, Sass, JQuery, I made some projects using them. I 
+want to develop  in this area and to be able to write code better and more efficiently.
+	My professional background was connected with teaching. I think, that my previous job helped 
+me to get such important skills as patience, responsibility and although  not to be afraid of any 
+difficulties. In addition I can teach others and learn by myself. I think, it is very important 
+for an IT-specialist to be a quick learner. Live and learn - it's about me. I like to face new challenges  
+and to get new skill set.
+	Now I am ready to work hard and to spend much time to become a good specialist in Web Development. 
  
 ```
 **Education**:  
@@ -34,9 +41,9 @@ and to get new skillset.
 
 **Technical skills**:   
 
-		HTML, CSS,sass,JavaScript,  
-		NodeJS,MS SQL Server,  
-		git,Java, Servlet and JSP-Technologies  
+		HTML, CSS, sass, JavaScript,  
+		jQuery, NodeJS, MS SQL Server,  
+		git, Java, Servlet and JSP-Technologies  
 					  
 **Electronic certificates**:  
 * [The Complete JavaScript Course](https://www.udemy.com/certificate/UC-QT0R53K2/) 
@@ -54,4 +61,4 @@ and to get new skillset.
 * [https://github.com/jarolika30/startMatterTask](https://github.com/jarolika30/startMatterTask)   
 		
 							 
-**English**: I can read technical literature and take courses in English
+**English**: I can read and understand technical literature, take courses in English
