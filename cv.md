@@ -48,13 +48,14 @@ knowledge in real Web Development projects.
 **Electronic certificates**:  
 * [The Complete JavaScript Course](https://www.udemy.com/certificate/UC-QT0R53K2/) 
 * [Web Design for Web Developers](https://www.udemy.com/certificate/UC-5ZAJZ3ZG/)  
-* [Version Control with Git] (https://www.coursera.org/learn/version-control-with-git)  
+  
 		
 		
 **Courses**:  
 * [JavaScript для начинающих](https://stepik.org/course/2223/syllabus)  
 * [Web-технологии](https://stepik.org/course/154/syllabus)  
-* [Введение в архитектуру ЭВМ. Элементы операционных систем.](https://stepik.org/course/253/syllabus)  
+* [Введение в архитектуру ЭВМ. Элементы операционных систем.](https://stepik.org/course/253/syllabus) 
+* [Version Control with Git](https://www.coursera.org/learn/version-control-with-git) 
 		
 							 
 **Сode examples**:  
