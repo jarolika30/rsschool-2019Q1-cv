@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  width: 100%;    
+  text-align: justify;
+  background: #393b4f;
+  font-size: 16px;
+}
+
+h2 { 
+  margin: 10px 0 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+.all {
+  max-width: 1024px;
+  background: #dad9dc;
+  color: #303149;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 15px;
+
+}
+.main {
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.skills {
+  margin-bottom: 20px;
+}
+.language {
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+.courses {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.code {
+  margin-left: 20px;
+}
+.half-size {
+  width: 30%;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+p span {
+  margin-right: 30px;
+  font-weight: bold;
+  display: block;
+  line-height: 1.5;
+}
+
+a {
+  display: block;
+  color: #303149;
+}
+
+a:hover {
+    color: #4c8cb2;
+    font-weight: bold;
+}
+
+
+.rhomb {
+  display: block;
+  float: right;
+  margin-top: -3px;
+  margin-right: 45px;
+  width: 150px;
+  height: 150px;
+  background: #4c8cb2;
+  transform: rotate(45deg);
+  box-shadow: 0 0 7px rgb(61, 113, 143);
+}
+.wrap {
+  position: absolute;
+  bottom: -556px;
+  left: 52%;
+}
+.picture {
+  background: url(resume.jpg);
+  position: relative;
+  overflow: hidden;
+}
+
+.picture::after {
+  content: "";
+  position: absolute;
+  top: -52px;
+  left: -5px;
+  width: 240px;
+  height: 240px;
+  background: inherit;
+  transform: rotate(-45deg);
+}
+
+.left {
+  margin-left: -6px;
+  margin-bottom: -5px;
+}
+
+.img {
+  margin-right: 5px;
+}
+
+.contacts {
+  width: 40%;
+}
+
+.contacts a:hover {
+  background: #4c8cb2;
+  display: block;
+  height: 30px;
+  border-radius: 10px;
+  color: black;   
+}
+
+.about {
+  position: absolute;
+  width: 30%;
+  right: 210px;
+  top: 300px;
+  padding: 10px 15px 10px;
+  line-height: 1.5;
+}
+
+.person {
+  min-height: 200px;
+}
+
+.person h1 {
+  font-size: 34px;
+  text-align: center;
+}
+
+.contacts {
+  min-height: 100px;
+  margin-top: -125px;
+  margin-left: 15px;
+}
+
+.contacts a {
+  color: #5e708a;
+}
+
+.shadow {
+  box-shadow:
+   -1px 0px rgb(48,49,73), -1px 1px rgb(50,50,74),
+   -2px 1px rgb(47,49,73), -2px 2px rgb(49,50,74),
+   -3px 2px rgb(46,49,73), -3px 3px rgb(48,50,74),
+   -4px 3px rgb(45,49,72), -4px 4px rgb(47,50,74),
+   -5px 4px rgb(45,49,72), -5px 5px rgb(46,50,74),
+   -6px 5px rgb(45,49,72), -6px 6px rgb(45,50,74),
+   -7px 6px rgb(45,49,73), -7px 7px rgb(45,50,74),
+   -8px 7px rgb(45,49,72), -8px 8px rgb(45,50,74);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
