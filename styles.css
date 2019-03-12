@@ -4,17 +4,32 @@
   box-sizing: content-box;
 }
 
+header {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+header:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-width: 0 0 26px 26px;
+  border-style: solid;
+  border-color: #c2c0c4 #fff;
+}
+  
 body {
   width: 100%;    
   text-align: justify;
-  background: #393b4f;
   font-size: 16px;
+  background: #393b4f;
 }
 
 p span {
   margin-right: 30px;
-  font-weight: bold;
   display: block;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -25,41 +40,29 @@ a {
 }
 
 a:hover {
-  color: #4c8cb2;
   font-weight: bold;
+  color: #4c8cb2;
 }
 
 h2 { 
   margin: 10px 0 20px;
 }
 
-h2:hover {
-  background: #4c8cb2;
-  display: block;
-  height: 30px;
-  border-radius: 10px;
-  color: black;   
-}
-
 li {
   list-style-type: none;
 }
 
-mark {
-  color: #303149;;
-  background: none;
-  font-weight: bold;
-  font-style: italic;
-  text-shadow: 1px 0 0 #ffffff;
-}
-
 .about {
   position: absolute;
-  width: 30%;
   right: 270px;
-  top: 280px;
+  top: 301px;
   padding: 10px 15px 10px;
+  width: 30%;
   line-height: 1.5;
+}
+
+.about h2 {
+  margin-bottom: 14px;
 }
 
 .about p, 
@@ -67,18 +70,22 @@ mark {
   text-indent: 10px;
 }
 
-.about h2 {
-  margin-bottom: 14px;
+.about strong {
+  font-weight: bold;
+  font-style: italic;
+  color: #303149;;
+  text-shadow: 1px 0 0 #ffffff;
+  background: none;
 }
 
 .all {
-  max-width: 1024px;
-  background: #dad9dc;
-  color: #303149;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 15px;
+  max-width: 1024px;
+  color: #303149;
+  background: #dad9dc;
 }
 
 .all.shadow {
@@ -98,9 +105,9 @@ mark {
 }
 
 .contacts {
-  min-height: 100px;
   margin-top: -125px;
   margin-left: 15px;
+  min-height: 100px;
   width: 40%;
 }
 
@@ -109,16 +116,16 @@ mark {
 }
 
 .contacts a:hover {
-  background: #4c8cb2;
   display: block;
   height: 30px;
+  color: black; 
   border-radius: 10px;
-  color: black;   
+  background: #4c8cb2;  
 }
 
 .courses {
-  margin-left: 65px;
   margin-top: 20px;
+  margin-left: 65px;
 }
 
 .img {
@@ -135,14 +142,14 @@ mark {
 }
 
 .language {
-  margin-bottom: 100px;
   margin-left: 20px;
+  margin-bottom: 100px;
 }
 
 .left-block {
-  width: 30%;
   padding: 15px;
   margin-left: 55px;
+  width: 30%;
 }
 
 .main {
@@ -153,19 +160,19 @@ mark {
 .rhomb {
   display: block;
   float: right;
-  margin-top: -3px;
-  margin-right: 45px;
+  margin-top: -10px;
+  margin-right: 50px;
   width: 150px;
   height: 150px;
-  background: #4c8cb2;
   transform: rotate(45deg);
+  background: #4c8cb2;
   box-shadow: 0 0 7px rgb(61, 113, 143);
 }
 
 .picture {
-  background: url(resume.jpg);
   position: relative;
   overflow: hidden;
+  background: url(resume.jpg);
 }
 
 .picture::after {
@@ -194,7 +201,7 @@ mark {
 
 .wrap {
   position: absolute;
-  bottom: -556px;
   left: 47.5%;
+  bottom: -556px;
 }
 
