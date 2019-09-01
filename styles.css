@@ -7,6 +7,7 @@
 header {
   position: relative;
   padding-bottom: 20px;
+  height: 175px;
 }
 
 header:before {
@@ -26,11 +27,18 @@ body {
   background: #393b4f;
 }
 
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 p span {
-  margin-right: 30px;
-  display: block;
   font-weight: bold;
   line-height: 1.5;
+}
+
+.qualify {
+  margin-left: 20px;
 }
 
 a {
@@ -44,25 +52,8 @@ a:hover {
   color: #4c8cb2;
 }
 
-h2 { 
-  margin: 10px 0 20px;
-}
-
 li {
   list-style-type: none;
-}
-
-.about {
-  position: absolute;
-  right: 270px;
-  top: 301px;
-  padding: 10px 15px 10px;
-  width: 30%;
-  line-height: 1.5;
-}
-
-.about h2 {
-  margin-bottom: 14px;
 }
 
 .about p, 
@@ -100,17 +91,6 @@ li {
    -8px 7px rgb(45,49,72), -8px 8px rgb(45,50,74);
 }
 
-.code {
-  margin-left: 20px;
-}
-
-.contacts {
-  margin-top: -125px;
-  margin-left: 15px;
-  min-height: 100px;
-  width: 40%;
-}
-
 .contacts a {
   color: #5e708a;
 }
@@ -119,14 +99,9 @@ li {
   display: block;
   height: 30px;
   color: black; 
-  border-radius: 10px;
-  background: #4c8cb2;  
+  color: #4c8cb2;  
 }
 
-.courses {
-  margin-top: 20px;
-  margin-left: 65px;
-}
 
 .img {
   margin-right: 5px;
@@ -141,20 +116,25 @@ li {
   display: inline-block;
 }
 
-.language {
-  margin-left: 20px;
-  margin-bottom: 100px;
-}
-
-.left-block {
-  padding: 15px;
-  margin-left: 55px;
-  width: 30%;
-}
-
 .main {
   margin: 0 auto;
-  padding: 20px 40px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 46%;
+  border: 2px solid  green;
+  padding: 10px;
+}
+
+.hr {
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .rhomb {
@@ -186,22 +166,9 @@ li {
   transform: rotate(-45deg);
 }
 
-.person {
-  min-height: 200px;
-}
-
 .person h1 {
   font-size: 34px;
   text-align: center;
 }
 
-.skills {
-  margin-bottom: 20px;
-}
-
-.wrap {
-  position: absolute;
-  left: 47.5%;
-  bottom: -556px;
-}
 
